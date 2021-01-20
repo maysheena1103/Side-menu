@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* line 5, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/global.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Microsoft Jhenghei","微軟正黑體";
+}
+
+/* line 11, ../sass/global.scss */
+.spacer {
+  clear: both;
+}
+
+/* line 15, ../sass/global.scss */
+.float {
+  float: left;
+}
+
+/* line 19, ../sass/global.scss */
+.float_r {
+  float: right;
+}
+
+/* line 23, ../sass/global.scss */
+.width {
+  width: 100%;
+}
+
+/* line 27, ../sass/global.scss */
+.hidden {
+  display: none;
+}
+
+/* line 31, ../sass/global.scss */
+.wrapper {
+  /*width: 1322px;*/
+  margin: 0px auto;
+  border: 0px;
+  padding: 0px;
+}
+
+/* line 39, ../sass/global.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* line 46, ../sass/global.scss */
+body {
+  background-color: #ffffff;
+  min-width: 100%;
+  /*overflow-y: hidden;*/
+}
+
+/* line 53, ../sass/global.scss */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 66, ../sass/global.scss */
+.middle .banner {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+/* line 72, ../sass/global.scss */
+.middle .banner .moleft {
+  position: absolute;
+  left: 42px;
+  top: 45%;
+}
+/* line 78, ../sass/global.scss */
+.middle .banner .moright {
+  position: absolute;
+  right: 42px;
+  top: 45%;
+}
+/* line 84, ../sass/global.scss */
+.middle .banner .bann_img {
+  width: 100%;
+  margin-top: -11px;
+}
+
+/* line 92, ../sass/global.scss */
+.hird {
+  color: #000;
+}

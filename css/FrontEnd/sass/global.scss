@@ -1,0 +1,111 @@
+@import "compass/reset";
+@import "compass/css3";
+
+
+*
+	{
+		@include box-sizing(border-box);
+		font-family: "Microsoft Jhenghei","微軟正黑體";
+	}
+
+.spacer 
+	{
+		clear: both;
+	}
+.float
+	{
+		float: left;
+	}
+.float_r
+	{
+		float: right;
+	}
+.width
+	{
+		width: 100%;
+	}
+.hidden
+	{
+		display: none;
+	}
+.wrapper
+	{
+		/*width: 1322px;*/
+		margin: 0px auto;
+		border: 0px;
+		padding: 0px;
+	}
+
+a 
+	{ 
+		text-decoration: none;
+		cursor: pointer; 
+		display: inline-block;
+	}
+
+body
+	{
+		background-color: #ffffff;
+		min-width: 100%;
+
+		/*overflow-y: hidden;*/
+	}
+button
+	{
+		cursor: pointer;
+		border: none;
+		background: none;
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+
+.middle
+	{
+		.banner
+			{
+				width: 100%;
+				background-color: #fff;
+				position: relative;
+				@include background-size(100% auto);
+				.moleft
+					{
+						position: absolute;
+						left: 42px;
+						top: 45%;
+					}
+				.moright
+					{
+						position: absolute;
+						right: 42px;
+						top: 45%;
+					}
+				.bann_img
+					{
+						width: 100%;
+						margin-top: -11px;
+					}
+			}
+	}
+
+.hird
+	{
+		color: #000;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
